@@ -1,10 +1,11 @@
 [project]
 name = "object-detection-tutorial"
 version = "0.1.0"
-description = "Add your description here"
+description = "最简单的目标检测入门教程 - 从零搭建单目标检测模型"
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [
     "torch>=2.8.0",
     "torchvision>=0.23.0",
+    "pillow>=10.0.0",
 ]
